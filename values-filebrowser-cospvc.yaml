@@ -1,0 +1,16 @@
+
+image:
+  repository: filebrowser/filebrowser
+  
+serviceAccount:
+  create: false
+
+service:
+  type: NodePort
+  port: 80
+
+ingress:
+  enabled: false
+
+Volume:
+  pvc:cos-pvc
